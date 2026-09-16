@@ -1,0 +1,20 @@
+install uv 
+make a folder  for new project
+execute the command uv init . in terminal
+uv add fastmcp
+create a basic server using main.py then test the server 
+server template
+from fastmcp import FastMCP
+mcp = server(name="server_name")
+@mcp.tool
+def func_name(args):
+    return
+@mcp.tool
+def func_name (args):
+    return
+
+if (__name__=="__main__"):
+    mcp.run() --> runs server locally
+
+uv run fastmcp dev inspector main.py --> locally checks the server for errors
+uv run fastmcp install claude-desktop main.py -->adds server to claude
