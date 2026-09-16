@@ -5,6 +5,7 @@ mcp = FastMCP(name="BASIC_SERVER")
 def add (a : int, b : int) -> int :
     "TAKES TWO NUMBERS AND ADDS TWO NUMBERS"
     return a +  b
+@mcp.tool
 def subtract(a:int, b : int) -> int :
     "Takes two numbers and subtracts two numbers"
     return a - b
